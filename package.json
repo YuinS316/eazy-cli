@@ -1,0 +1,43 @@
+{
+  "name": "eazy-cli",
+  "version": "0.0.1",
+  "description": "An easy cli for fetch specified template.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "bin": {
+    "eazy-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "YuinS316",
+  "license": "MIT",
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18.16.0",
+    "pnpm": ">=8.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "fast-glob": "^3.3.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^9.2.16",
+    "simple-git": "^3.23.0",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "18.16.0",
+    "tsup": "^8.0.2"
+  }
+}
