@@ -34,7 +34,7 @@ var package_default;
 var init_package = __esm({
   "package.json"() {
     package_default = {
-      name: "eazy-cli",
+      name: "eazy-cli-next",
       version: "0.0.1",
       description: "An easy cli for fetch specified template.",
       type: "module",

@@ -1,5 +1,5 @@
 {
-  "name": "eazy-cli",
+  "name": "eazy-cli-next",
   "version": "0.0.1",
   "description": "An easy cli for fetch specified template.",
   "type": "module",
